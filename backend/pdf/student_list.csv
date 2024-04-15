@@ -1,0 +1,13 @@
+Student ID,Student Name,Mobile No.,Email Id,City,State,Country,Higher Class Percentage,Pursing Class,Year,Family Annual Income,Status,Scholorship Receive,Date,Block user
+15,jayesh,1234560000,jayesh@gmail.com,kota,Rajasthan,Anguilla,89,Class8,2023,5 lakh to 15 lakh,verified,yes,Mon Apr 08 2024 11:55:26 GMT+0530 (India Standard Time),active
+14,veer2,1234500000,veer@gmail.com,kota,Rajasthan,Aruba,33,Class9,2024,Above 50 Lakh,verified,yes,Mon Apr 08 2024 11:54:11 GMT+0530 (India Standard Time),active
+13,dev,1342662727,dev@gmail.com,,,,0,,,,unverified,no,Mon Apr 08 2024 11:52:39 GMT+0530 (India Standard Time),active
+12,kamal,1234568888,kamal@gmail.com,kota,Rajasthan,Bahrain,56,Class8,2023,15 Lakh to 50 lakh,verified,no,Mon Apr 08 2024 11:50:50 GMT+0530 (India Standard Time),active
+11,Arjun,1234550000,arjun@gmail.com,kota,Rajasthan,Antigua and Barbuda,87,Class8,2024,5 lakh to 15 lakh,verified,no,Mon Apr 08 2024 11:49:31 GMT+0530 (India Standard Time),active
+10,rahul2,1234566543,rahul@gmail.com,Sambhar,Rajasthan,Austria,87,Class6,2024,5 lakh to 15 lakh,verified,no,Mon Apr 08 2024 11:48:02 GMT+0530 (India Standard Time),active
+9,mohan,1234567789,mohan@gmail.com,,,,0,,,,unverified,no,Mon Apr 08 2024 11:46:16 GMT+0530 (India Standard Time),active
+8,ajay2,1234556767,ajay@gmail.com,Sambhar,Rajasthan,Northern Mariana Islands,64,Class9,2024,15 Lakh to 50 lakh,unverified,no,Mon Apr 08 2024 11:44:14 GMT+0530 (India Standard Time),active
+7,kanha2,1234567765,kanha@gmail.com,kota,Rajasthan,Azerbaijan,63,Class 5,2024,15 Lakh to 50 lakh,verified,no,Mon Apr 08 2024 11:42:51 GMT+0530 (India Standard Time),active
+5,bhanu2,1234545465,bhanu@gmail.com,Sambhar,Rajasthan,Mayotte,77,Class9,2024,Above 50 Lakh,unverified,no,Mon Apr 08 2024 11:41:10 GMT+0530 (India Standard Time),active
+4,rohit2,1234569999,rohit@gmail.com,kota,Rajasthan,Armenia,99,Class7,2023,Above 50 Lakh,verified,yes,Mon Apr 08 2024 11:39:34 GMT+0530 (India Standard Time),active
+3,viijay,1234565432,vijay@gmail.com,kota,Rajasthan,India,0,Class 5,2023,Below 5 lakh,unverified,no,Mon Apr 08 2024 11:37:46 GMT+0530 (India Standard Time),active

@@ -1,0 +1,4 @@
+Donor ID,Donor Name,Mobile No.,Email Id,City,State,Country,Occuption,Designation,Annual Income,Date,Status ( Block / unblock )
+6,Donar3,4545454545,donar3@gmail.com,Jaipur,Rajasthan,India,Husband,Owner,5 lakh to 15 lakh,Mon Apr 08 2024 11:41:36 GMT+0530 (India Standard Time),active
+2,Donar2,7979797979,donar2@gmail.com,Sambhar,Rajasthan,India,Husband1,Owner1,5 lakh to 15 lakh,Mon Apr 08 2024 11:36:38 GMT+0530 (India Standard Time),active
+1,Donar1,7878787878,donar1@gmail.com,,,,,,,Mon Apr 08 2024 11:24:16 GMT+0530 (India Standard Time),active
