@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* colors:{
+  #452a72      #7963a7 #bac3df #6c7fbf #293770
+  darkpurple   purple  light   skyblue  darkBlue
+} */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+.social-links:hover {
+  background-color: #452a72;
+}
+
+/* ... (your existing CSS styles) */
+
+.fixed-button {
+  position: fixed;
+  bottom: 10%;
+  right: 5%;
+  background-color: #452a72;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.fixed-button:hover {
+  background-color: #0056b3; /* Darker color on hover */
+  transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+.img {
+  width: 200px;
+  border-radius: 5px;
+  cursor: zoom-in;
+  display: block;
+}
+
+.img-panel {
+  position: relative;
+  top: -4.7rem;
+  left: 20rem;
+  padding: 5px;
+  background-color: transparent;
+  height: auto;
+  width: auto;
+  display: inline-block;
+  transition: all 200ms ease;
+  border-radius: 5px;
+}
+.img-panel:hover {
+  background-color: #20A4F3;
+}
+
+.img-panel__selct {
+  background-color: #20A4F3;
+}
+
+.display-box {
+  padding: 1em;
+  max-width: 1000px;
+  min-width: 300px;
+  margin: 1em auto;
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: repeat(auto-fill, 210px);
+  grid-autoflow: row;
+  justify-content: center;
+}
+
+.img-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: transparent;
+  transition: all 200ms ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999999;
+}
+
+.img-wrapper__initial {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.image__selected {
+  max-width: 70vw;
+  max-height: 80vh;
+  display: block;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+  position: relative;
+  border: transparent solid 4px;
+  border-radius: 5px;
+}
+
+.img-selected-initial {
+  border: white solid 4px;
+}
+
+.img-close {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 1.5em;
+  left: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.img-close:hover {
+  background-color: #CA3B4E;
+}
+.img-close:before {
+  content: " ";
+  height: 40px;
+  width: 5px;
+  background-color: white;
+  transform: rotate(45deg);
+  position: absolute;
+  cursor: pointer;
+}
+.img-close:after {
+  content: " ";
+  height: 40px;
+  width: 5px;
+  transform: rotate(135deg);
+  position: absolute;
+  z-index: 100;
+  background-color: white;
+  cursor: pointer;
+}

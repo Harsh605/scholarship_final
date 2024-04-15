@@ -1,0 +1,35 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  /* Optional: Add additional styling as needed */
+}
+
+button:hover {
+  /* background-color: #4f17ae !important; */
+  background-color: #c1c1c1 !important;
+}
+
+button>p:hover {
+  /* background-color: #4f17ae !important; */
+  background-color: #c1c1c1 !important;
+}
+
+.css-c6jlt1-MuiButtonBase-root-MuiIconButton-root {
+  width: 4rem;
+}
+
+.Toastify__close-button, .Toastify__close-button--light {
+  padding-left: 1.1rem;
+}
+
+table > thead > tr > th > button:hover {
+  background-color: none !important;
+}
+table > thead > tr > th > button {
+  margin-left: 0.6rem !important;
+}
+table > thead > tr > th > button > img {
+  height: 0.5rem !important;
+  width: 0.5rem !important;
+}
